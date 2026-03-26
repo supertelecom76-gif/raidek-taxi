@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تحميل تطبيق رايدك</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+      color: #ffcc00;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+      max-width: 90%;
+      line-height: 1.6;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 80%;
+      max-width: 300px;
+    }
+    .btn {
+      background-color: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      padding: 15px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #e6b800;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <h1>تطبيق رايدك</h1>
+  <p>
+    اكتشف تجربة نقل سهلة وسريعة مع <strong>رايدك</strong>! حمل التطبيق الآن وابدأ بالتنقل بكل أمان وسلاسة سواء كنت مستخدم أو كابتن.
+  </p>
+  <div class="buttons">
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.twsyla.twsyla&pcampaignid=web_share" target="_blank">تحميل للمستخدم</a>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.ashbar.appuser&pcampaignid=web_share" target="_blank">تحميل للسائق</a>
+  </div>
+  <footer>
+    &copy; 2026 raidek-iq.com | جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
